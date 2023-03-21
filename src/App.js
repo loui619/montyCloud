@@ -28,7 +28,7 @@ function App() {
     }
   return (
     <div className="App">
-      <input type="text" onChange={filterBySearch} value={selectedItem}/>
+      <input type="text" value={selectedItem} onChange={filterBySearch} />
     <div id="item-list">
     <ul>
       {state()}
